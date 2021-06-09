@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/My-React-Portfolio/static/css/main.248f1adb.chunk.css",
+    "main.js": "/My-React-Portfolio/static/js/main.4baa5d1e.chunk.js",
+    "main.js.map": "/My-React-Portfolio/static/js/main.4baa5d1e.chunk.js.map",
+    "runtime-main.js": "/My-React-Portfolio/static/js/runtime-main.5c8a8b68.js",
+    "runtime-main.js.map": "/My-React-Portfolio/static/js/runtime-main.5c8a8b68.js.map",
+    "static/css/2.800be05e.chunk.css": "/My-React-Portfolio/static/css/2.800be05e.chunk.css",
+    "static/js/2.dd10215d.chunk.js": "/My-React-Portfolio/static/js/2.dd10215d.chunk.js",
+    "static/js/2.dd10215d.chunk.js.map": "/My-React-Portfolio/static/js/2.dd10215d.chunk.js.map",
+    "static/js/3.c204f043.chunk.js": "/My-React-Portfolio/static/js/3.c204f043.chunk.js",
+    "static/js/3.c204f043.chunk.js.map": "/My-React-Portfolio/static/js/3.c204f043.chunk.js.map",
+    "index.html": "/My-React-Portfolio/index.html",
+    "static/css/2.800be05e.chunk.css.map": "/My-React-Portfolio/static/css/2.800be05e.chunk.css.map",
+    "static/css/main.248f1adb.chunk.css.map": "/My-React-Portfolio/static/css/main.248f1adb.chunk.css.map",
+    "static/js/2.dd10215d.chunk.js.LICENSE.txt": "/My-React-Portfolio/static/js/2.dd10215d.chunk.js.LICENSE.txt",
+    "static/media/EN screenshot.bf0f479b.png": "/My-React-Portfolio/static/media/EN screenshot.bf0f479b.png",
+    "static/media/Matthew MIller.d388cf72.pdf": "/My-React-Portfolio/static/media/Matthew MIller.d388cf72.pdf",
+    "static/media/Random Password Generator.10931bf3.png": "/My-React-Portfolio/static/media/Random Password Generator.10931bf3.png",
+    "static/media/Weather Dashboard.57b27607.png": "/My-React-Portfolio/static/media/Weather Dashboard.57b27607.png",
+    "static/media/Work Day Scheduler.71483956.png": "/My-React-Portfolio/static/media/Work Day Scheduler.71483956.png",
+    "static/media/employeefind.2afdc28b.png": "/My-React-Portfolio/static/media/employeefind.2afdc28b.png",
+    "static/media/mattpic.7da86d18.jpeg": "/My-React-Portfolio/static/media/mattpic.7da86d18.jpeg",
+    "static/media/notetaker.2e6b01b4.png": "/My-React-Portfolio/static/media/notetaker.2e6b01b4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c8a8b68.js",
+    "static/css/2.800be05e.chunk.css",
+    "static/js/2.dd10215d.chunk.js",
+    "static/css/main.248f1adb.chunk.css",
+    "static/js/main.4baa5d1e.chunk.js"
+  ]
+}
