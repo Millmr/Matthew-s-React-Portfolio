@@ -13,7 +13,7 @@ The Projects section allows the user to see each project deployed live, as well 
 
 This app is deployed live and you can see it live at:
 
-https://millmr.github.io/My-React-Portfolio/
+https://millmr.github.io/Matthew-s-React-Portfolio/#/
 
 To install locally, do the following:
 
