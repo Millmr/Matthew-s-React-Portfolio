@@ -1,0 +1,334 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.navApp {
+  background-color:#9b9b9b;
+}
+
+.card-body {
+  position: relative;
+  background-color: #1f2020;
+  border: 3px solid aqua;
+  margin: .3rem;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #f0f0f0;
+  overflow: hidden;
+}
+
+.card-body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  border: 2px solid transparent;
+  background: linear-gradient(45deg, rgba(0, 255, 255, 0.3), rgba(0, 0, 0, 0.3));
+  background-clip: border-box;
+  z-index: 0;
+  animation: borderGlow 3s infinite alternate;
+}
+
+.card-body::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  border-radius: inherit;
+  border: 2px solid rgba(0, 255, 255, 0.6);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+  z-index: 1;
+}
+
+.card-body * {
+  position: relative;
+  z-index: 2;
+}
+
+.cardBg {
+  background-color: #33353a;
+  border-width: 3px;
+  border-style: solid;
+  border-color: aqua;
+  border-radius: .5rem;
+}
+
+.difBack {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(120deg, #6f6e6e, #e1e1e1);
+  background-size: 400% 400%;
+  animation: gradientBackground 15s ease infinite;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #f0f0f0;
+}
+
+.pgraph {
+  font-size: 18px;
+  color: rgb(241, 249, 249);
+  margin-left: 40px;
+  margin-top: 1rem;
+  padding: 10px;
+  background: linear-gradient(transparent 2px, rgb(151, 255, 255) 2px, rgb(109, 250, 250) 4px, transparent 4px);
+  background-size: 100% 4px;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(21, 20, 20, 0.3), -1px -1px 2px rgba(22, 21, 21, 0.3);
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.05);
+  animation: fadeInUp 2s forwards;
+}
+
+.container {
+  background-color:#9b9b9b;
+  text-align:left;
+}
+
+.containerTwo {
+  background-color:#9b9b9b;
+  text-align:center;
+}
+
+
+.work {
+  box-shadow: 7px 7px 5px rgb(92, 91, 91);
+  background-color: rgb(71, 81, 85);
+  color: #cce7f7;
+  border-width: 3px;
+  border-style: solid;
+  border-color: aqua;
+  border-radius: .5rem;
+}
+
+.work:hover {
+  transform: scale(1.1);
+}
+
+.portfolioApp {
+  background-color: #9b9b9b;
+}
+
+.aboutApp {
+  background-color: #9b9b9b;
+}
+
+.body {
+  background-color:#9b9b9b;
+}
+
+.card-header {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(241, 249, 249);
+}
+
+#pic {
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgb(2, 82, 82);
+  border-radius: .5rem;
+  margin: 1.3rem;
+}
+
+#pic::before {
+  animation: moveBorder 3s linear infinite;
+}
+
+.navApp {
+  background-color: #9b9b9b;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar-brand {
+  margin: 0;
+}
+
+.navbar-link {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: rgb(241, 249, 249);
+  background-color: rgb(1, 50, 50);
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: rgb(241, 249, 249);
+  transform: scale(1.1);
+  box-shadow: 0 0 10px aqua;
+}
+
+.projects {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.skills {
+  position: relative;
+  padding: 20px;
+  margin: 20px;
+  font-size: 18px;
+  color: #e0e0e0;
+  background: linear-gradient(45deg, rgba(0, 110, 110, 0.3), rgba(0, 0, 0, 0.3));
+  border: 3px solid transparent; /* Set border as transparent initially */
+  border-radius: 8px;
+  overflow: hidden;
+  text-align:left;
+}
+
+.skills::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #00fff6; /* Aqua border color */
+  border-radius: 8px;
+  box-sizing: border-box;
+  animation: moveBorder 3s linear infinite;
+  z-index: 1;
+  pointer-events: none; /* Ensure border does not block interactions */
+}
+
+.skills span {
+  position: relative;
+  z-index: 2; /* Ensure text stays above the border */
+}
+
+@keyframes moveBorder {
+  0% {
+    transform: translateX(-100%) translateY(-100%);
+  }
+  25% {
+    transform: translateX(100%) translateY(-100%);
+  }
+  50% {
+    transform: translateX(100%) translateY(100%);
+  }
+  75% {
+    transform: translateX(-100%) translateY(100%);
+  }
+  100% {
+    transform: translateX(-100%) translateY(-100%);
+  }
+}
+
+@keyframes textShadowGlow {
+  0%, 50% {
+    text-shadow: 0 0 8px #e2e2e2, 0 0 16px #e2e2e2, 0 0 24px #e2e2e2, 0 0 32px #e2e2e2;
+  }
+  100% {
+    text-shadow: 0 0 12px #00fff6, 0 0 24px #00fff6, 0 0 36px #00fff6, 0 0 48px #00fff6;
+  }
+}
+
+@keyframes gradientBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes borderGlow {
+  0% {
+    border-color: rgba(0, 255, 255, 0.3);
+  }
+  100% {
+    border-color: rgba(0, 255, 255, 0.8);
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Space between items */
+  }
+
+  .navbar-link {
+    padding: 10px;
+    font-size: 14px; /* Adjust font size for better readability */
+    width: 100%; /* Make links full width */
+    text-align: center;
+    border-radius: 0; /* Remove border-radius for full-width links */
+  }
+}
+
+/* Media query for screens smaller than 480px */
+@media (max-width: 480px) {
+  .navbar-link {
+    font-size: 12px; /* Further reduce font size for very small screens */
+    padding: 8px; /* Adjust padding */
+  }
+}
