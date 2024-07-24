@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-My React Portfolio is a portfolio of current and future work done by Matthew Miller. It includes a recent picture of Matthew Miller, an "about me" section for a little bit of a background, a section that showcases current and future work and a contact section with information on how to get ahold of Matthew Miller. 
+My React Portfolio is a portfolio of current and future work done by Matthew Miller. It includes a recent picture of Matthew Miller, an "about me" section for a little bit of a background, a section that showcases current and future work and a contact section with information on how to get ahold of Matthew Miller tessssssssst. 
 ![image](https://github.com/Millmr/My-React-Portfolio/blob/master/images/about.png)
 
 ## Projects
