@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Matthew-s-React-Portfolio/static/css/main.d83654f2.chunk.css",
+    "main.js": "/Matthew-s-React-Portfolio/static/js/main.340ab4dc.chunk.js",
+    "main.js.map": "/Matthew-s-React-Portfolio/static/js/main.340ab4dc.chunk.js.map",
+    "runtime-main.js": "/Matthew-s-React-Portfolio/static/js/runtime-main.da374f8d.js",
+    "runtime-main.js.map": "/Matthew-s-React-Portfolio/static/js/runtime-main.da374f8d.js.map",
+    "static/css/2.800be05e.chunk.css": "/Matthew-s-React-Portfolio/static/css/2.800be05e.chunk.css",
+    "static/js/2.653f774a.chunk.js": "/Matthew-s-React-Portfolio/static/js/2.653f774a.chunk.js",
+    "static/js/2.653f774a.chunk.js.map": "/Matthew-s-React-Portfolio/static/js/2.653f774a.chunk.js.map",
+    "static/js/3.c204f043.chunk.js": "/Matthew-s-React-Portfolio/static/js/3.c204f043.chunk.js",
+    "static/js/3.c204f043.chunk.js.map": "/Matthew-s-React-Portfolio/static/js/3.c204f043.chunk.js.map",
+    "index.html": "/Matthew-s-React-Portfolio/index.html",
+    "static/css/2.800be05e.chunk.css.map": "/Matthew-s-React-Portfolio/static/css/2.800be05e.chunk.css.map",
+    "static/css/main.d83654f2.chunk.css.map": "/Matthew-s-React-Portfolio/static/css/main.d83654f2.chunk.css.map",
+    "static/js/2.653f774a.chunk.js.LICENSE.txt": "/Matthew-s-React-Portfolio/static/js/2.653f774a.chunk.js.LICENSE.txt",
+    "static/media/EN screenshot.bf0f479b.jpg": "/Matthew-s-React-Portfolio/static/media/EN screenshot.bf0f479b.jpg",
+    "static/media/Matthew R Miller Resume June 2021.2751ee94.pdf": "/Matthew-s-React-Portfolio/static/media/Matthew R Miller Resume June 2021.2751ee94.pdf",
+    "static/media/Random Password Generator.10931bf3.jpg": "/Matthew-s-React-Portfolio/static/media/Random Password Generator.10931bf3.jpg",
+    "static/media/Weather Dashboard.57b27607.jpg": "/Matthew-s-React-Portfolio/static/media/Weather Dashboard.57b27607.jpg",
+    "static/media/Work Day Scheduler.71483956.jpg": "/Matthew-s-React-Portfolio/static/media/Work Day Scheduler.71483956.jpg",
+    "static/media/employeefind.2afdc28b.jpg": "/Matthew-s-React-Portfolio/static/media/employeefind.2afdc28b.jpg",
+    "static/media/mattpic.5180eccf.jpeg": "/Matthew-s-React-Portfolio/static/media/mattpic.5180eccf.jpeg",
+    "static/media/notetaker.2e6b01b4.jpg": "/Matthew-s-React-Portfolio/static/media/notetaker.2e6b01b4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.da374f8d.js",
+    "static/css/2.800be05e.chunk.css",
+    "static/js/2.653f774a.chunk.js",
+    "static/css/main.d83654f2.chunk.css",
+    "static/js/main.340ab4dc.chunk.js"
+  ]
+}
