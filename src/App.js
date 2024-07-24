@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter } from 'react-router-dom';
 import Navbar from "./components/navbar/index";
 import About from "./pages/about";
 import Wrapper from "./components/wrapper";
@@ -10,7 +11,7 @@ import NoMatch from "./pages/noMatch";
 
 function App() {
   return (
-  <Router>
+  <HashRouter>
     <Navbar />
     <Wrapper>
       <Switch>
@@ -22,7 +23,7 @@ function App() {
         <Route component={NoMatch} />
       </Switch>
     </Wrapper>
-  </Router>
+  </HashRouter>
   );
 }
 

@@ -7,7 +7,7 @@ const Contact = () => {
     return (
         <div className="portfolioApp">
             <div className="containerTwo">
-                <div className="card">
+                <div className="card-body">
                     <div className="card-header">
                         <h3>Contact</h3>
                     </div>
