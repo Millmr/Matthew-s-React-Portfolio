@@ -10,9 +10,11 @@ const navBar = () => {
                 <span id="name" className="navbar-brand mb-0 h1">
                     <Link to="/" className="navbar-link">Matthew Miller</Link>
                 </span>
-                <Link to="/About" className="navbar-link">About Me</Link>
-                <Link to="/Projects" className="navbar-link">Projects</Link>
-                <Link to="/Contact" className="navbar-link">Contact</Link>
+                <div>
+                    <Link to="/About" className="navbar-link">About Me</Link>
+                    <Link to="/Projects" className="navbar-link">Projects</Link>
+                    <Link to="/Contact" className="navbar-link">Contact</Link>
+                </div>
             </nav>
         </div>
     )

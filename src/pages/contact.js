@@ -11,23 +11,18 @@ const Contact = () => {
                     <div className="card-header">
                         <h3>Contact</h3>
                     </div>
-                    <div className="card-body">
-                        <div className="row"></div>
-                            <div className="gitProfile">
-                                <p>GitHub Profile: <a href="https://github.com/Millmr">
-                                Click to see!</a> </p>
-                                <p>Linkedin Profile: <a href="https://www.linkedin.com/in/matthew-miller-9884a720a/"
-                                >Connect with me on Linkedin!</a></p>
-                                <p>Email Address: matt.r.miller09@gmail.com</p>
-                                <p>Phone Number:(515)249-7049</p>
-                                <a href={Resume}
-                                > Resume</a>
-                            </div>
+                    <div>
+                        <div className="gitProfile">
+                            <p>GitHub Profile: <a href="https://github.com/Millmr" target="_blank" rel="noreferrer">Click to see!</a></p>
+                            <p>Linkedin Profile: <a href="https://www.linkedin.com/in/matthew-miller-9884a720a/" target="_blank" rel="noreferrer">Connect with me on Linkedin!</a></p>
+                            <p>Email Address: <a href="mailto:matt.r.miller09@gmail.com">matt.r.miller09@gmail.com</a></p>
+                            <p>Phone Number: <a href="tel:5152497049">(515) 249-7049</a></p>
+                            <p><a href={Resume} target="_blank" rel="noreferrer">View My Resume</a></p>
                         </div>
                     </div>
                 </div>
             </div>
-    
+        </div>
     )
 }
 
